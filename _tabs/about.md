@@ -1,5 +1,5 @@
 ---
-title: About
+title: Qui sommes-nous ?
 icon: fas fa-info-circle
 order: 4
 ---

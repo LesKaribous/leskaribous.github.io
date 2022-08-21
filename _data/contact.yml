@@ -7,6 +7,11 @@
   type: twitter
   icon: 'fab fa-twitter'
 -
+  type: twitch
+  icon: 'fab fa-twitch'
+  url: https://www.twitch.tv/barbatroniclive
+  noblank: false
+-
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
