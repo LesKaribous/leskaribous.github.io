@@ -1,0 +1,24 @@
+---
+layout: page
+title: Sponsors
+icon: fas fa-tag
+order: 2
+panel: false
+---
+
+
+<div class="row">
+{% for sponsor in site.sponsors %}
+<div class="col-sm-4">
+  <div class="card text-white bg-dark mb-3">
+    <img class="card-img-top bg-white" src="../assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+    <div class="card-body">
+      <p class="card-text">{{sponsor.description}}</p>
+    </div>
+    <div class="card-footer">
+      <a href="{{sponsor.link}}" class="btn btn-primary">Site officiel</a>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>

@@ -141,6 +141,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  sponsors:
+    output: false
+    sort_by: order
 
 defaults:
   - scope:
