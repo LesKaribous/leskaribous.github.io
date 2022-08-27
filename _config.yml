@@ -144,6 +144,9 @@ collections:
   sponsors:
     output: false
     sort_by: order
+  robots:
+    output: true
+    sort_by: date
 
 defaults:
   - scope:

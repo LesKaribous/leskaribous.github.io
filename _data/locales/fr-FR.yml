@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Accueil
-  categories: Catégories
+  categories: Catégories et tags
   tags: Tags
   archives: Archives
   about: A propos de

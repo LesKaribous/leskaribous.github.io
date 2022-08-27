@@ -27,3 +27,10 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   height: auto;
   margin: -15% 0 -15% 0;
 }
+
+.title-card {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
