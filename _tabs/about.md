@@ -6,6 +6,18 @@ panel: false
 img_path: ../assets/img/
 ---
 
+  <div class="container py-5">
+    <div class="jumbotron text-white jumbotron-image shadow" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url(../assets/img/bureau.jpg);">
+      <h2 class="mb-4">
+        Jumbotron with background image
+      </h2>
+      <p class="mb-4">
+        Hey, check this out.
+      </p>
+      <a href="https://bootstrapious.com/snippets" class="btn btn-primary">More Bootstrap Snippets</a>
+    </div>
+  </div>
+
 ![Bureau](bureau.jpg)
 
 Les Karibous, c'est une équipe de robotique fondée en 2011 avec la ferme intention de montrer que la robotique peut être simple et fun à réaliser. Depuis cette époque, elle participe chaque année à La Coupe de France de Robotique organisée par l'association Planète Science ainsi qu'à la MakerFight !
