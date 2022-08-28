@@ -7,7 +7,7 @@ layout: page
 
 <div class="row">
 {% for robot in robots %}
-<div class="col-sm-6">
+<div class="col-sm-6 d-flex align-items-stretch" style="margin-bottom: 20px !important">
   <div class="card">
     <a href="{{ robot.github | relative_url }}" style="border-bottom: 0px !important">
         <img  class="card-img-top" 
@@ -26,10 +26,10 @@ layout: page
     <div class="card-footer">
       <div class="share-wrapper">
         <span class="robots-icons">
-            <a href="{{ robot.github }}" aria-label="github" target="_blank" rel="noopener" title="" data-placement="top" data-toggle="tooltip">
+            <a href="{{ robot.github }}" aria-label="github" target="_blank" rel="noopener" title="Sources du projet" data-placement="top" data-toggle="tooltip">
                 <i class="fa-robot-link fab fa-github"></i>
             </a>
-            <a href="{{ robot.youtube }}" aria-label="github" target="_blank" rel="noopener" title="" data-placement="top" data-toggle="tooltip">
+            <a href="{{ robot.youtube }}" aria-label="github" target="_blank" rel="noopener" title="Vidéo de présentation des robots" data-placement="top" data-toggle="tooltip">
                 <i class="fa-robot-link fab fa-youtube"></i>
             </a>
         </span>
