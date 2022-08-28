@@ -34,3 +34,45 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+.subtitle-card {
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: var(--card-bg-color);
+}
+
+.fa-robot-link {
+  background-color: var(--link-robot-bg-color);
+  border-radius: 2rem;
+  padding: 0.35em;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  font-size: 1.25rem;
+  color: var(--link-robot-color);
+  transition: opacity .5s, transform 0.5s;
+  opacity: 0.5;
+}
+
+.fa-robot-link:hover {
+  transition: opacity .5s, transform 0.5s;
+	transform: scale(1.0);
+  opacity: 1.0;
+}
+
+.card-img-top {
+  transition: .5s ease;
+	transform: scale(1.0);
+  opacity: 0.8;
+}
+
+.card-img-top:hover {
+  transition: .5s ease;
+	transform: scale(1.02);
+  opacity: 1.0;
+}

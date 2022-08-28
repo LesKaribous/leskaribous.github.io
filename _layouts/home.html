@@ -50,9 +50,13 @@ layout: page
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h1>
     <div class="img-post-container">
-      <div class="crop img">
-        <img src="{{ post.post-image }}" alt="{{ post.title }}">
-      </div>
+        <img
+          src="{{ post.post-image }}"
+          width="auto"
+          height="150"
+          style="width: 100%; height: 150px; object-fit: cover;"
+          alt="{{ post.title }}"
+        >
     </div>
     <div class="post-content">
       <p>

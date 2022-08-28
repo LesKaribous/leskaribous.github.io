@@ -1,0 +1,41 @@
+---
+layout: page
+---
+
+
+{% assign robots = site.robots | sort: 'date' | reverse %}
+
+<div class="row">
+{% for robot in robots %}
+<div class="col-sm-6">
+  <div class="card">
+    <a href="{{ robot.github | relative_url }}">
+        <img  class="card-img-top" 
+            src="../assets/img/robots/{{ robot.img }}" 
+            width="auto"
+            height="300"
+            style="width: 100%; height: 300px; object-fit: cover;"
+            alt="{{ robot.title }}"
+        >
+    </a>
+    <div class="card-body">
+        <p class="title-card">{{ robot.title }}</p>
+        <p class="subtitle-card">{{robot.competition}} - {{robot.year}}</p>
+        <p class="card-text">{{robot.description}}</p>
+    </div>
+    <div class="card-footer">
+      <div class="share-wrapper">
+        <span class="robots-icons">
+            <a href="{{ robot.github }}" aria-label="github" target="_blank" rel="noopener" title="" data-placement="top" data-toggle="tooltip">
+                <i class="fa-robot-link fab fa-github"></i>
+            </a>
+            <a href="{{ robot.youtube }}" aria-label="github" target="_blank" rel="noopener" title="" data-placement="top" data-toggle="tooltip">
+                <i class="fa-robot-link fab fa-youtube"></i>
+            </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
