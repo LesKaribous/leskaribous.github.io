@@ -9,7 +9,7 @@ layout: page
 {% for robot in robots %}
 <div class="col-sm-6">
   <div class="card">
-    <a href="{{ robot.github | relative_url }}">
+    <a href="{{ robot.github | relative_url }}" style="border-bottom: 0px !important">
         <img  class="card-img-top" 
             src="../assets/img/robots/{{ robot.img }}" 
             width="auto"

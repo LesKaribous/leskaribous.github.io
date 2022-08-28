@@ -48,6 +48,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 }
 
 .fa-robot-link {
+  
   background-color: var(--link-robot-bg-color);
   border-radius: 2rem;
   padding: 0.35em;
@@ -57,9 +58,15 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   color: var(--link-robot-color);
   transition: opacity .5s, transform 0.5s;
   opacity: 0.5;
+  
+}
+
+.robots-icons a {
+  border-bottom: 0px !important;
 }
 
 .fa-robot-link:hover {
+  border-bottom: 0px solid var(--link-underline-color);
   transition: opacity .5s, transform 0.5s;
 	transform: scale(1.0);
   opacity: 1.0;
