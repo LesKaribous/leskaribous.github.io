@@ -147,6 +147,9 @@ collections:
   robots:
     output: true
     sort_by: date
+  pages:
+    output: true
+    sort_by: date
 
 defaults:
   - scope:
@@ -166,8 +169,10 @@ defaults:
   - scope:
       path: ''
       type: tabs             # see `site.collections`
+      toc: true         # Display TOC column in pages
     values:
       layout: page
+      toc: true         # Display TOC column in pages
       permalink: /:title/
   - scope:
       path: assets/img/favicons

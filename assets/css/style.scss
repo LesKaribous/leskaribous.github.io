@@ -11,6 +11,12 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
 /* append your custom style below */
 
+@media (max-width: 300px) {
+  .carousel-item>img {
+      max-height: 50px !important;
+  }
+}
+
 .crop {
   width: auto;
   height: auto;
