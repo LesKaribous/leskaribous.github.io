@@ -147,11 +147,14 @@ collections:
   robots:
     output: true
     sort_by: date
-  pages:
-    output: true
-    sort_by: date
 
 defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
   - scope:
       path: ''          # An empty string here means all files in the project
       type: posts
