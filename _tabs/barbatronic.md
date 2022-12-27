@@ -6,6 +6,7 @@ order: 2
 refactor: true
 pannel_includes:
   - toc
+toc: true
 img_path: ../assets/img/
 ---
 

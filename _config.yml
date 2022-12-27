@@ -150,12 +150,6 @@ collections:
     sort_by: date
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page
   - scope:
       path: ''          # An empty string here means all files in the project
       type: posts
@@ -170,6 +164,10 @@ defaults:
       path: _drafts
     values:
       comments: false
+  - scope:
+      path: _pages
+    values:
+      toc: true
   - scope:
       path: ''
       type: tabs             # see `site.collections`
