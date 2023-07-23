@@ -46,15 +46,20 @@ Les Karibous, c'est une équipe de robotique fondée en 2011 avec la ferme inten
 
 ## Palmarès
 
-### MAKERFIGHT
-
-- 2022 - Quarts de final
-- 2019 - 1ère place - Vainqueur de l'édition
-- 2020 & 2021 annulées suite au COVID
-
 ### COUPE DE FRANCE DE ROBOTIQUE
 
-- 2021 - 11ème place - Phases finales
-- 2021 - Prix du jury
-- 2020 - Prix de la communication
-- 2015 - Prix de la pédagogie
+- **2023** 
+  - Coupe de Belgique : 3ème place des équipes invitées & prix de la communication
+  - Coupe de France : 22ème place
+- **2022** - 27ème place
+- **2021**
+  - 11ème place - Phases finales
+  - Prix du jury
+- **2020** - Prix de la communication
+- **2015** - Prix de la pédagogie
+
+### MAKERFIGHT
+
+- **2022** - Quarts de final
+- **2019** - 1ère place - Vainqueur de l'édition
+- **2020** & **2021** annulées suite au COVID

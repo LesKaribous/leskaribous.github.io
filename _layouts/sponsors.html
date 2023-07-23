@@ -2,18 +2,26 @@
 layout: page
 ---
 
-<div class="row">
-    {% for sponsor in site.sponsors %}
+<div id="sponsors" class="row">
+  {% assign random_sponsors = site.sponsors | shuffle %}
+  {% for sponsor in random_sponsors %}
     <div class="col-sm-4 d-flex align-items-stretch" style="margin-bottom: 0,5rem !important">
-      <div class="card mb-3">
-        <img class="card-img-top bg-white" src="../assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+      <div class="card mb-3" style="border-radius: 30px; overflow: hidden;">
+        <div class="card-img-container" style="position: relative;">
+          <a href="{{sponsor.link}}" target="_blank">
+            <img class="card-img-top bg-white" src="../assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}" style="border-radius: 0px;">
+          </a>
+          <div class="badge-container" style="position: absolute; bottom: 10px; left: 10px;">
+            {% assign sponsor_years = sponsor.year | split: "," %}
+            {% for year in sponsor_years %}
+              <span class="badge badge-pill badge-year-{{ year }} badge-custom">{{ year }}</span>
+            {% endfor %}
+          </div>
+        </div>
         <div class="card-body">
           <p class="card-text">{{sponsor.description}}</p>
         </div>
-        <div class="card-footer">
-          <a href="{{sponsor.link}}" class="btn btn-primary">Site officiel</a>
-        </div>
       </div>
     </div>
-    {% endfor %}
-    </div>
+  {% endfor %}
+</div>
