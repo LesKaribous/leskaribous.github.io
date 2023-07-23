@@ -8,7 +8,7 @@ toc: true
 
 ## Présentation 2
 
-Test 
+[Lien vers la mainboard](../main-board)
 
 ### Présentation 23
 
