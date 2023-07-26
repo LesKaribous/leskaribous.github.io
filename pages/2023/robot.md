@@ -1,26 +1,28 @@
 ---
-layout: doc
+layout: robot
 title: Robot 2023 - Mary et Dary
-panel: true
-date: 2022-01-01 00:00:00 +0800
-toc: true
+panel: false
+toc: false
+documentations:
+  - name: Nom du composant 1
+    image: /path/to/image.jpg
+    description: Description du composant
+    doc_link: /link/to/doc
+  - name: Nom du composant 2
+    image: /path/to/image.jpg
+    description: Description du composant
+    doc_link: /link/to/doc
+  - name: Nom du composant 3
+    image: /path/to/image.jpg
+    description: Description du composant
+    doc_link: /link/to/doc
 ---
-
-## Présentation 2
 
 [Lien vers la mainboard](../main-board)
 
-### Présentation 23
-
-Test
-
-### Présentation 45
-
-Test
-
 
 <model-viewer src="robot-mary.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp"
-    shadow-intensity="1" exposure="2" auto-rotate camera-orbit="-95deg 74.09deg 1.058m" field-of-view="30deg">
+    shadow-intensity="1" exposure="2" camera-orbit="-95deg 74.09deg 1.058m" field-of-view="30deg">
     <button onclick="location.href='../beacon'" class="Hotspot" slot="hotspot-3"
         data-position="-0.04121248231548713m 0.36198707310934775m -0.0006178469385729191m"
         data-normal="-0.8660253380257722m -1.4106717804405923e-8m -0.500000113897334m"
@@ -58,19 +60,3 @@ Test
         <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
     </div>
 </model-viewer>
-
-#### Présentation 56
-
-Test
-
-#### Présentation 565
-
-Test
-
-### Présentation 4556
-
-Test
-
-## Présentation 49521
-
-Test

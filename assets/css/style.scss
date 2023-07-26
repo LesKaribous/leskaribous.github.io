@@ -84,6 +84,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
 .fa-robot-link:hover {
   border-bottom: 0px solid var(--link-underline-color);
+  text-decoration: none;
   transition: opacity .5s, transform 0.5s;
 	transform: scale(1.0);
   opacity: 1.0;

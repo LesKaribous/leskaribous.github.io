@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: robot
 title: Le Karibou
 panel: false
+toc: false
 date: 2019-01-01 00:00:00 +0800
 year: 2019
 competition : MakerFight
