@@ -1,21 +1,8 @@
 ---
-layout: robot
+layout: page
 title: Robot 2023 - Mary et Dary
 panel: false
 toc: false
-documentations:
-  - name: Nom du composant 1
-    image: /path/to/image.jpg
-    description: Description du composant
-    doc_link: /link/to/doc
-  - name: Nom du composant 2
-    image: /path/to/image.jpg
-    description: Description du composant
-    doc_link: /link/to/doc
-  - name: Nom du composant 3
-    image: /path/to/image.jpg
-    description: Description du composant
-    doc_link: /link/to/doc
 ---
 
 [Lien vers la mainboard](../main-board)
