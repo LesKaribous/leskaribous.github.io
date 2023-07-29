@@ -14,8 +14,7 @@ Ressource pour générer des vues PCB et de la documentation interactive.
 - [Pinion](https://yaqwsx.github.io/Pinion)
 - [Repo GitHub Pinion](https://github.com/yaqwsx/Pinion)
 - [Issue génération](https://github.com/yaqwsx/Pinion/pull/36)
-- [Documentaiton Poivron Robotique](http://poivron-robotique.fr/Pinion-La-documentation-de-cartes-electroniques.html)
-- 
+- [Documentation Poivron Robotique](http://poivron-robotique.fr/Pinion-La-documentation-de-cartes-electroniques.html)
 
 ## Comment générer une vue d'un PCB
 
