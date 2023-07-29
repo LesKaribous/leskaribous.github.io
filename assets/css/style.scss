@@ -106,6 +106,10 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   background-color: var(--card-bg-color);
 }
 
+.bg-darker {
+  background-color: var(--point-bg-color-variation);
+}
+
 /* model-viewer style */
 
 :not(:defined) > * {
