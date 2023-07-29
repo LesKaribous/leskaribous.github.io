@@ -1,0 +1,9 @@
+<iframe 
+    style="border-radius: 15px;" 
+    width="{{ include.width | default: '100%' }}" 
+    height="{{ include.height | default: '250' }}" 
+    src="https://www.youtube.com/embed/{{ include.video_id }}?start={{ include.start | default: 0 }}" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>

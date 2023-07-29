@@ -1,0 +1,49 @@
+<hr>
+
+<h2>{{ include.title }}</h2>
+
+<div class="d-flex justify-content-start mb-3">
+    {% assign score1 = include.score1 | plus: 0 %}
+    {% assign score2 = include.score2 | plus: 0 %}
+
+    {% if score1 > score2 %}
+        <button type="button" class="btn btn-success rounded-pill mr-2" data-toggle="modal" data-target="#detailsModal">
+            {{ include.opponent1 }} <span class="badge badge-light badge-pill">{{ include.score1 }} pts</span>
+        </button>
+        <button type="button" class="btn btn-info rounded-pill" data-toggle="modal" data-target="#detailsModal">
+            {{ include.opponent2 }} <span class="badge badge-light badge-pill">{{ include.score2 }} pts</span>
+        </button>
+    {% else %}
+        <button type="button" class="btn btn-info rounded-pill mr-2" data-toggle="modal" data-target="#detailsModal">
+            {{ include.opponent1 }} <span class="badge badge-light badge-pill">{{ include.score1 }} pts</span>
+        </button>
+        <button type="button" class="btn btn-success rounded-pill" data-toggle="modal" data-target="#detailsModal">
+            {{ include.opponent2 }} <span class="badge badge-light badge-pill">{{ include.score2 }} pts</span>
+        </button>
+    {% endif %}
+</div>
+
+<!-- Modal Details Points de match -->
+<div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content theme-dark">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>{{ include.opponent1 }}</h6>
+                        <p>{{ include.details1 | markdownify }}</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>{{ include.opponent2 }}</h6>
+                        <p>{{ include.details2 | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% include embedded_video.html video_id=include.video_id start=include.start %}
+
+<p>{{ include.description | markdownify }}</p>
