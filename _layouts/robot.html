@@ -84,25 +84,20 @@ layout: page
     </div>
 
     {% if page.documentations %}
-        <h2 class="mb-3">Documentation :</h2>
-        <div class="documentations">
-            {% for doc in page.documentations %}
-                <div class="card-img-top mb-3" style="border-radius: 15px">
-                    <div class="row no-gutters">
-                        <div class="col-md-3">
-                            <img src="{{ doc.image }}" class="card-img" alt="{{ doc.name }}" style="object-fit: cover">
-                        </div>
-                        <div class="col-md-9">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <a href="{{ doc.doc_link }}">{{ doc.name }}</a>
-                                </h5>
-                                <p class="card-text">{{ doc.description }}</p>
-                            </div>
-                        </div>
-                    </div>
+    <h2 class="mb-3">Documentation :</h2>
+    <ul class="list-unstyled">
+        {% for doc in page.documentations %}
+            <li class="media my-4" style="border-radius: 15px">
+                <img src="{{ doc.image }}" class="mr-3" alt="{{ doc.name }}" style="object-fit: cover; height: 64px; border-radius: 10px;">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                        <a href="{{ doc.doc_link }}">{{ doc.name }}</a>
+                    </h5>
+                    <p>{{ doc.description }}</p>
                 </div>
-            {% endfor %}
-        </div>
-    {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
 </div>
