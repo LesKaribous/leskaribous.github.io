@@ -10,7 +10,7 @@ Du 17 au 20 Mai 2023 a eu lieu la [Coupe de France de robotique](https://www.cou
 # Les séries de matchs
 
 {% include match_display.html 
-title="Série 1" 
+title="SERIE 1 : Premier match officiel" 
 video_id="CscO3rPIJTU" 
 start=1803 
 opponent1="Les Karibous" 
@@ -20,9 +20,15 @@ score2=34
 points="Couches de gateau valides, Gateaux respectant la recette, Gateaux avec cerise, Panier présent, Cerises dans le panier, Comptage cerises juste, Robot déguisé, Retour robot(s) dans une zone, Sous-total avant estimation, estimation du score, Bonus d'estimation, Pénalités, Points bonus"
 details1="1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13"
 details2="1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13"
-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non enim id eros lacinia vehicula non quis ipsum. Nullam ut felis id libero rutrum semper vitae sed purus.
+description="Pour ce premier match, nos robots ont bien commencé leurs actions. 3 gâteaux récupérés et assemblés avec une cerise côté secondaire. Et côté primaire, le robot n'a pas récupéré la pile marron, poussée par l'autre équipe. Pas de soucis de ce côté, il arrive à faire 2 gâteaux avec des cerises, à récupérer les cerises du distributeur, et à les positionner dans le panier qui va fonctionner parfaitement. Il arrivera même à revenir dans sa zone et à mettre son costume.
 
-Sed ac pulvinar sem. Maecenas libero nisi, pellentesque id diam id, luctus consequat lacus. Sed at lacinia sem, vitae aliquet dui. Fusce ut neque elementum, porta libero in, condimentum mauris." 
+Mais alors, pourquoi si peu de points ? C'est du côté du secondaire que cela va pêcher. Après avoir positionné ses trois gâteaux complets, il va tenter d'aller chercher ceux le plus à droite. Une stratégie rajoutée quelques heures auparavant avec succès. Il va rencontrer le robot adverse et donc s'arrêter. Il aurait dû normalement repartir pour sa zone d'arrivée en fin de match. En effet, nos procédures de fin de match imposent à nos robots, quelle que soit leur action en cours, un retour dans sa zone de fin à 10 secondes de la fin... ce que le secondaire ne fera jamais malheureusement.
+
+En effet, il a bien enclenché son retour en zone de fin, mais l'a annulé directement car il continuait de détecter l'adversaire en face de lui. Une situation que nous n'avions pas testée. Ainsi, nous manquerons les points de retours dans la zone commune en fin de match. Et pire que ça : l'ensemble de nos points accumulés par le secondaire vont être complètement annulés car notre robot dépasse de quelques millimètres dans la zone de dépose (voir image ci-dessous). Et la règle est claire : si un robot est présent dans le plat, les gâteaux ne comptent pas...
+
+![Cliquer pour agrandir](IMG_20230518_095035.jpg)
+
+Ainsi, même en ayant fait un match que nous jugeons respectable, les points ne suivront pas. Et ces quelques points, on va les perdre plusieurs fois pendant la compétition, ce qui nous empêchera de monter correctement dans le classement." 
 %}
 
 {% include match_display.html 
