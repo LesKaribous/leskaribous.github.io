@@ -3,7 +3,7 @@
 <h2>{{ include.title }}</h2>
 
 {% assign sanitizedTitle = include.title | remove: ' ' %}
-{% assign sanitizedTitle = sanitizedTitle | replace: '.', '' | replace: ',', '' | replace: '!', '' %}
+{% assign sanitizedTitle = sanitizedTitle | replace: '.', '' | replace: ',', '' | replace: '!', '' | replace: ':', '' %}
 {% assign sanitizedTitle = sanitizedTitle | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'ê', 'e' | replace: 'à', 'a' | replace: 'â', 'a' | replace: 'î', 'i' | replace: 'ï', 'i' | replace: 'ô', 'o' | replace: 'ù', 'u' | replace: 'û', 'u' | replace: 'ç', 'c' %}
 
 <div class="d-flex justify-content-start mb-3">
