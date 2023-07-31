@@ -1,8 +1,11 @@
 ---
-layout: doc
+layout: page
 title: Matchs Coupe de Robotique 2023
-panel: true
+refactor: true
+pannel_includes:
+  - toc
 toc: true
+img_path: /assets/img/2023/CDR_matchs/
 ---
 
 Du 17 au 20 Mai 2023 a eu lieu la [Coupe de France de robotique](https://www.coupederobotique.fr/). Durant ces 4 jours nous avons eu l'occasion de nous faire homologuer et de jouer une série de 5 matchs officiels. Vous trouverez donc ci-dessous l'ensemble de nos matchs accompagnés d'un commentaire sur le déroulé de celui-ci. 
