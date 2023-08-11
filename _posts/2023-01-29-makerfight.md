@@ -3,7 +3,7 @@ layout: post
 title: Annulation de la MakerFight 2023 et perspectives pour la Coupe de Belgique
 date: 2023-01-29 10:00:00 +0800
 author: Barbatronic
-post-image: ../../../assets/img/posts/makerfight-cancel.png
+post-image: /assets/img/posts/makerfight-cancel.png
 categories: [events 2023]
 tags: [events 2023, makerfight, coupe de belgique]
 toc: false
