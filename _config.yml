@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   Les Karibous, c'est une équipe de robotique fondée en 2011 avec la ferme intention de montrer que la robotique peut être simple et fun à réaliser. Depuis cette époque, elle participe chaque année à La Coupe de France de Robotique organisée par l'association Planète Science ainsi qu'à la MakerFight !
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://leskaribous.github.io'
+url: 'https://leskaribous.fr'
 permalink: pretty
 
 github:
