@@ -121,6 +121,17 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   color: rgb(255, 187, 0); /* Remplacez #VotreCouleur par la couleur de votre choix, par exemple #ffffff pour le blanc */
 }
 
+.jumbotron h3, .jumbotron p {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);
+}
+
+.jumbotron h3 {
+  font-family: 'Oswald', sans-serif; /* Utilisez Oswald comme police principale et une police sans-serif comme police de secours */
+  font-size: 2rem; /* Taille de la police */
+  margin-bottom: 1.5rem; /* Marge inférieure */
+  color: rgb(255, 187, 0); /* Remplacez #VotreCouleur par la couleur de votre choix, par exemple #ffffff pour le blanc */
+}
+
 .jumbotron p {
   font-size: 1.5rem; /* Ajustez selon vos préférences */
   margin-top: 1.5rem;
