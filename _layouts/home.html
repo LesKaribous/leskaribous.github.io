@@ -40,7 +40,6 @@ layout: page
   {% endfor %}
 {% endif %}
 
-
 <div id="post-list">
 
 {% for post in posts %}
@@ -50,13 +49,15 @@ layout: page
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h1>
     <div class="img-post-container">
+      <a href="{{ post.url | relative_url }}">
         <img
-          src="{{ post.post-image }}"
-          width="auto"
-          height="150"
-          style="width: 100%; height: 150px; object-fit: cover;"
-          alt="{{ post.title }}"
+            src="{{ post.post-image }}"
+            width="auto"
+            height="250"
+            style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px;"
+            alt="{{ post.title }}"
         >
+    </a>
     </div>
     <div class="post-content">
       <p>

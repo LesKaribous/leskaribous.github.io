@@ -65,6 +65,8 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   border-bottom: 0px !important;
 }
 
+/* -------------- JUMBOTRON ---------------- */
+
 .jumbotron-image {
   background-position: center center;
   background-repeat: no-repeat;
@@ -81,6 +83,122 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 .jumbotron-image img {
   filter: brightness(50%);
 }
+
+.jumbotron, .jumbotron * {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  height: 100vh; /* Hauteur de la fenêtre du navigateur */  
+  margin: 0px; /* Supprimer les marges */
+  padding: 0px; /* Supprimer les espaces intérieurs */
+  position: relative; /* Pour positionner correctement les éléments à l'intérieur */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Changez la couleur du texte si nécessaire */
+}
+
+.jumbotron::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.jumbotron h2, .jumbotron p {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);
+}
+
+.jumbotron h2 {
+  font-family: 'Oswald', sans-serif; /* Utilisez Oswald comme police principale et une police sans-serif comme police de secours */
+  font-size: 4rem; /* Taille de la police */
+  margin-bottom: 1.5rem; /* Marge inférieure */
+  color: rgb(255, 187, 0); /* Remplacez #VotreCouleur par la couleur de votre choix, par exemple #ffffff pour le blanc */
+}
+
+.jumbotron p {
+  font-size: 1.5rem; /* Ajustez selon vos préférences */
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.jumbotron .separator {
+  width: 50%; /* Ajustez la largeur selon vos préférences */
+  height: 4px; /* Épaisseur de la barre */
+  background-color: rgb(255, 187, 0);; /* Couleur de la barre */
+  margin: 1rem auto; /* Centrer la barre horizontalement et ajouter une marge verticale */
+  border-radius: 50px; /* Bords arrondis */
+  position: relative;
+}
+
+.jumbotron .separator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Flou noir à 50% d'opacité */
+  filter: blur(5px); /* Flou de 5 pixels */
+  z-index: -1;
+  border-radius: 50px; /* Bords arrondis */
+}
+
+.jumbotron > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.jumbotron .container {
+  text-align: center;
+}
+
+.jumbotron .jumbotron-btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.jumbotron .btn-twitter {
+  background-color: #1DA1F2;
+  color: white;
+  margin-right: 10px;
+}
+
+.jumbotron .btn-youtube {
+  background-color: #FF0000;
+  color: white;
+  margin-right: 10px;
+}
+
+.jumbotron .btn-twitch {
+  background-color: #6441A4;
+  color: white;
+  margin-right: 10px;
+}
+
+.jumbotron .btn-github {
+  background-color: #333;
+  color: white;
+  margin-right: 10px;
+}
+
+.jumbotron .btn-gmail {
+  background-color: #D44638; /* Couleur typique de Gmail */
+  color: white;
+  margin-right: 10px;
+}
+
+/* Pour s'assurer que les icônes et le texte sont bien espacés */
+.jumbotron .btn i {
+  margin-right: 5px;
+}
+
+/* ------------------------------ */
 
 .fa-robot-link:hover {
   border-bottom: 0px solid var(--link-underline-color);
