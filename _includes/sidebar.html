@@ -39,6 +39,7 @@
     </li>
     <!-- the real tabs -->
     {% for tab in site.tabs %}
+    {% if tab.hide == false %}
     <li class="nav-item {% if tab.url == page.url %}{{ " active" }}{% endif %}">
       <a href="
       {% if tab.redirection %} {{ tab.redirection }} {% else %} {{ tab.url | relative_url }} {% endif %}" class="nav-link">
@@ -48,6 +49,7 @@
         <span>{{ site.data.locales[lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
       </a>
     </li> <!-- .nav-item -->
+    {% endif %}
     {% endfor %}
 
   </ul> <!-- ul.nav.flex-column -->

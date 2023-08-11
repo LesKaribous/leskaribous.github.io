@@ -3,6 +3,7 @@ layout: page
 title: Barbatronic
 icon: fas fa-robot
 order: 2
+hide: false
 refactor: true
 pannel_includes:
   - toc
