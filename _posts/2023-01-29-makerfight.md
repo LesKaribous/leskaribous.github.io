@@ -13,7 +13,7 @@ mermaid: false
 pin: false
 img_path: ../../../assets/img/posts/
 ---
-![Alt text](../assets/img/posts/makerfight-cancel.png)
+![Alt text](makerfight-cancel.png)
 
 Nous avons appris avec regret l'[annulation de la MakerFight 2023](https://www.makerfight.fr/blog/makerfight/communique-annulation-de-makerfight-2023-1556/). C'est toujours triste de voir un événement d'une telle envergure être annulé, surtout pour la communauté des makers et des passionnés de robotique.
 
