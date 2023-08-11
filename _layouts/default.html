@@ -28,7 +28,7 @@ layout: compress
     <div id="main-wrapper" class="justify-content-center">
 
       {% if page.url == "/" or page.url == "/index.html" %}
-        {% include hero_jumbotron.html %}
+      {% include hero_jumbotron.html %}
       {% endif %}
 
       <div id="main" class="container pl-xl-4 pr-xl-4">
@@ -59,12 +59,12 @@ layout: compress
         <div class="toast-header">
           <button type="button" class="ml-2 ml-auto close" data-dismiss="toast" aria-label="Close">
             <span aria-hidden="true">&times;</span>
-          </button>
+          </button> 
         </div>
         <div class="toast-body text-center pt-0">
-          <p class="pl-2 pr-2 mb-3">Une mise à jour du site a été trouvée</p>
+          <p class="pl-2 pr-2 mb-3">{{ site.data.locales[lang].notification.update_found }}</p>
           <button type="button" class="btn btn-primary" aria-label="Update">
-            Mettre à jour
+            {{ site.data.locales[lang].notification.update }}
           </button>
         </div>
       </div>
