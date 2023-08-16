@@ -3,7 +3,7 @@ layout: post
 title: Renouvellement de partenariat avec Robotmaker
 date: 2023-01-15 10:00:00 +0800
 author: Barbatronic
-post-image: /assets/img/posts/robotmaker.png
+post-image: /assets/img/posts/robotmaker-partenaire.jpg
 categories: [cdr 2023]
 tags: [cdr 2023, partenaires, robotmaker]
 toc: false

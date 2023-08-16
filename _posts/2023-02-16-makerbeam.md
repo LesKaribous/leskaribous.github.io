@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Remerciements à MakerBeam pour leur soutien continu
-date: 2023-05-15 10:00:00 +0800
+date: 2023-02-16 10:00:00 +0800
 author: Barbatronic
-post-image: /assets/img/posts/makerbeam.png
+post-image: /assets/img/posts/2-equipe-karibous-makerbeam-frame-exposed.jpg
 categories: [cdr 2023]
 tags: [cdr 2023, partenaires, makerbeam]
 toc: false
