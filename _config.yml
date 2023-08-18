@@ -78,7 +78,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -148,6 +148,8 @@ collections:
   robots:
     output: true
     sort_by: date
+  docs:
+    output: true
 
 defaults:
   - scope:
@@ -164,10 +166,6 @@ defaults:
       path: _drafts
     values:
       comments: false
-  - scope:
-      path: _pages
-    values:
-      toc: true
   - scope:
       path: ''
       type: tabs             # see `site.collections`

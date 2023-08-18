@@ -1,6 +1,6 @@
 ---
-layout: doc
-title: Base Robot Holonome
+layout: page
+title: Base des robots Holonomes
 panel: true
 toc: true
 refactor: true

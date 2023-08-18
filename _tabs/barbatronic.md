@@ -26,3 +26,10 @@ Les lives, c'est une vidéo de 3h en moyenne chaque semaine sur des thématiques
 
 Avec plus de 500 viewers uniques par semaine, la chaine Barbatronic est la première chaine Twitch Française à partager la passion de la robotique au travers de la Coupe de France de Robotique et de La Makerfight !
 
+## Suivre le live 
+
+<iframe src="https://player.twitch.tv/?channel=barbatroniclive&parent=www.leskaribous.fr" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+## Revoir les précédents streams 
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?si=SeCZrwuK0ptlu_Cv&amp;list=PLXPKPMciRsL9Ocql1KjuFHGFdYjhHsgYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
