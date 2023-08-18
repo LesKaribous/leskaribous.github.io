@@ -4,9 +4,12 @@ title: Robot 2023 - Mary et Dary
 panel: false
 toc: false
 ---
+## Introduction
 
-[Lien vers la mainboard](../main-board)
+Vous pourrez découvrir ici les entrailles de nos robots ! Nous avons repris nos deux bases holonomes conçues en 2022 et avons amélioré certains aspects. La structure et la motorisation restent très similaires à ce qui avait déjà été mis en place en 2022. Cependant, face à quelques problèmes électroniques, nous avons repensé entièrement cette section ainsi que celle liée à la détection.
+De plus, nous avons adapté de nouveaux actionneurs spécifiques pour 2023, permettant de saisir et de manipuler les éléments de jeu.
 
+Pour explorer ces éléments, nous vous invitons à naviguer dans le modèle 3D ci-dessous et à interagir avec les différents composants.
 
 <model-viewer src="robot-mary.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp"
     shadow-intensity="1" exposure="2" camera-orbit="-95deg 74.09deg 1.058m" field-of-view="30deg">
