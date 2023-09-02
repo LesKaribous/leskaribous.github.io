@@ -28,7 +28,7 @@ Avec plus de 500 viewers uniques par semaine, la chaine Barbatronic est la premi
 
 ## Suivre le live 
 
-<iframe src="https://player.twitch.tv/?channel=barbatroniclive&parent=www.leskaribous.fr" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://player.twitch.tv/?channel=barbatroniclive&parent=leskaribous.fr" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 ## Revoir les précédents streams 
 
