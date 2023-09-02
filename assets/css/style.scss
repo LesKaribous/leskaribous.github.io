@@ -132,6 +132,11 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   color: rgb(255, 187, 0); /* Remplacez #VotreCouleur par la couleur de votre choix, par exemple #ffffff pour le blanc */
 }
 
+.texte-special {
+  font-weight: bold;
+  color: rgb(255, 187, 0);
+}
+
 .jumbotron p {
   font-size: 1.5rem; /* Ajustez selon vos préférences */
   margin-top: 1.5rem;
