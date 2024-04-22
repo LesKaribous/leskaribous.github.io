@@ -12,7 +12,7 @@ layout: page
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         {% for i in (1..page.nbimg-carrousel) %}
-                            {% assign img_path = "/assets/img/carrousel/" | append: page.carrousel | append: "/" | append: i | append: ".jpg" %}
+                            {% assign img_path = "/assets/img/gallery/" | append: page.carrousel | append: "/" | append: i | append: ".jpg" %}
                             {% if i == 1 %}
                                 <div class="carousel-item active">
                                     <div style="height: 400px; overflow: hidden;">
