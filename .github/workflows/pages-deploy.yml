@@ -23,7 +23,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1.0
-          bundler-cache: true
+          bundler-cache: false
+      
+      - name: Update Bundler
+        run: |
+          gem install bundler
+          bundle update
 
       - name: Deploy
         run: bash tools/deploy.sh
