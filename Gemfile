@@ -25,3 +25,5 @@ group :jekyll_plugins do
   gem "jekyll-linkpreview" 
 end
 
+gem "jekyll-sass-converter", "~> 2.1" # Utilisez une version qui ne nécessite pas `sass-embedded`
+
