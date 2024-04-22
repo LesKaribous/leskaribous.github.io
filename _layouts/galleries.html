@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+{% assign galleries = site.galleries | sort: 'date' | reverse %}
+
+<div class="row">
+    {% for gallery in galleries %}
+    <div class="col-sm-6 d-flex align-items-stretch" style="margin-bottom: 20px !important;">
+      <div class="card" style="border-radius: 30px; overflow: hidden;">
+        <a href="{{ gallery.url | relative_url }}" style="border-bottom: 0px !important;">
+          <img class="card-img-top" 
+            src="../assets/img/gallery/{{ gallery.folder }}/{{ gallery.card-img }}" 
+            width="auto"
+            height="300"
+            style="width: 100%; height: 300px; object-fit: cover; border-radius: 30px 30px 0 0;"
+            alt="{{ robot.title }}"
+          >
+        </a>
+        <div class="card-body">
+          <p class="title-card">{{ gallery.title }}<br></p>          
+          <p class="card-text">{{ gallery.description }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+</div>

@@ -150,6 +150,8 @@ collections:
     sort_by: date
   docs:
     output: true
+  galleries:
+    output: true
 
 defaults:
   - scope:

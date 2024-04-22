@@ -2,7 +2,7 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             {% for i in (1..include.nbimg) %}
-                {% assign img_path = "/carrousel/" | append: include.carrousel | append: "/" | append: i | append: ".jpg" %}
+                {% assign img_path = "/gallery/" | append: include.carrousel | append: "/" | append: i | append: ".jpg" %}
                 {% if i == 1 %}
                     <div class="carousel-item active">
                         <div style="overflow: hidden;">
