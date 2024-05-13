@@ -13,9 +13,9 @@ description: Un ensemble de petits robots autonomes. Il sont programmés cette a
 specifications: 
 competitions:
   - event: "Coupe de Robotique"
-    rank: 0
-    prize: ""
+    rank: 5
+    prize: "9ème général"
   - event: "Coupe de Belgique"
-    rank: 0
+    rank: 2
     prize: ""
 ---
