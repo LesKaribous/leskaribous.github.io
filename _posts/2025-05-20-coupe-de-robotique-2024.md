@@ -40,7 +40,7 @@ description="
 {% include match_display.html 
 title="SERIE 2" 
 video_id="8zZkLfBQLeM" 
-start=0
+start=2459
 opponent1="Les Karibous" 
 score1=89
 opponent2="Ze Crazy Team Sr" 
@@ -56,7 +56,7 @@ description="
 {% include match_display.html 
 title="SERIE 3" 
 video_id="SixhftsXm0A" 
-start=0
+start=3075
 opponent1="Les Karibous" 
 score1=99
 opponent2="YAKAFOKON" 
@@ -72,7 +72,7 @@ description="
 {% include match_display.html 
 title="SERIE 4" 
 video_id="PJYNJFExOm4" 
-start=0
+start=1010
 opponent1="Les Karibous" 
 score1=75
 opponent2="RCVA" 
