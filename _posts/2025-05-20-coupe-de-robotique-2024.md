@@ -1,6 +1,6 @@
 ---
 title: Retour sur la Coupe de France 2024
-date: 2024-05-29 10:00:00 +0800
+date: 2024-05-20 10:00:00 +0800
 categories: [cdr 2024]
 tags: [cdr 2024]     # TAG names should always be lowercase
 author: Barbatronic
@@ -13,7 +13,7 @@ pin: true
 post-image: assets/img/gallery/cdr-2024/22.jpg
 ---
 
-
+**En cours d'écriture**
 
 ![](../../assets/img/gallery/cdr-2024/2.jpg)
 
@@ -102,7 +102,5 @@ description="
 %}
 
 ## Merci et félicitations à tous !
-
-La compétition est finie.
 
 ![](../../assets/img/gallery/cdr-2024/22.jpg)
