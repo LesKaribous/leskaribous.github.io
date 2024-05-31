@@ -19,7 +19,7 @@ Réduire la taille de la carte :
 Pour les connecteurs batteries LP-e6 :
 
 - [Reddit](https://www.reddit.com/r/AskElectronics/comments/17p4tr1/lpe6_charger_pins/)
-- [Connector identification](https://connectorbook.com/identification.html?m=NN&n=battery_blade_b2b_conn&&fl=0000000000000000000000000000000000000000000000000000-400-|||||)
+- [Connector identification](https://connectorbook.com/identification.html)
 - [Ref potentielle - Vérifier dimensions](https://fr.aliexpress.com/item/1005005245234469.html?gatewayAdapt=glo2fra)
 - [Ref potentielle - Vérifier dimensions](https://fr.aliexpress.com/item/1005004845618508.html?spm=a2g0o.productlist.main.19.5ff05880aZnsjo&algo_pvid=4a7a5daa-ca5e-4170-8a23-474c202b7fad&algo_exp_id=4a7a5daa-ca5e-4170-8a23-474c202b7fad-9&pdp_npi=4%40dis%21EUR%215.26%214.47%21%21%215.56%214.73%21%40210388c917171411317987485ebd48%2112000030719342686%21sea%21FR%212164625422%21&curPageLogUid=YeS47cgkw0Xp&utparam-url=scene%3Asearch%7Cquery_from%3A)
 
