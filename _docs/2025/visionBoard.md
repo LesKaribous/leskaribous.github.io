@@ -30,6 +30,12 @@ Pour le bouton d'arrêt d'urgence, il faudrait trouver une référence plus peti
 - [Ref latching switch button 5A](https://befr.rs-online.com/web/p/push-button-switches/1251684)
 - [UB16SKW03N-C](https://www.digikey.fr/fr/products/detail/nkk-switches/UB16SKW03N-C/1057030?s=N4IgTCBcDaIKoCECMA2AygaQOoAYDMAcgLQDCIAugL5A)
 
+Gagner en hauteur sur le montage des drivers de moteur. Utiliser un montage par le dessous sur embase comme sur le dessin (2). Solution de connecteur chez Wurth:
+
+- [WR-PHD 2.54 mm Socket Header Bottom Entry](https://www.we-online.com/en/components/products/PHD_2_54_SOCKET_HEADER_BOTTOM_ENTRY_6130XX15721)
+
+![alt text](MicrosoftWhiteboard_20240531_172543.png)
+
 ### Les Robots
 
 Les moteurs actuels, [23HS16-0884S](https://www.omc-stepperonline.com/fr/nema-23-bipolaire-1-8deg-0-6nm-85oz-in-0-88a-6-6v-57x57x41mm-4-fils-23hs16-0884s), ne sont pas assez puissants en haute vitesse. Le couple chute drastiquement. 
