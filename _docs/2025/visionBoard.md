@@ -16,6 +16,18 @@ Réduire la taille de la carte :
 - Passer sur des ESP32 sans antenne intégrés : https://www.mouser.fr/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1U-N16R2
 - Passer sur des batteries d'appareil photo ([Exemple 1](https://www.amazon.fr/ENEGON-LP-E6NH-Batteries-Rechange-Compatible/dp/B08R8FH3NJ/ref=sr_1_8?__mk_fr_FR=ÅMÅŽÕÑ&crid=VXUFGA2MASML&dib=eyJ2IjoiMSJ9.bdRtNROjCfEbG8Ip4GixMXPXzECKBdjD-O145UZNbSJi3E9qiUzNdkhh3nrkxa6vzE1OaydhoebICsUA3LpAGBzxsePq0jWkyUz257v45bIrXDjgWQF2XHNSWMLgY6OBlnLQv0alowaDaTVj39x42aPJvqqIssAWQN1qVacNpN_YqQbl_1QT0OuoTAywf7ZklNMBwMkVxuAfmGo4Nl71NiRNxynbkhswrf02y97yOpSFYnyDSWKqjNrYw3dBFsbqpIRuu7oWainc3KBwq2lTWtAwlBotwCV_8r_VEIcvVA4._RmGu8ATVesv_flToQE84E6378el4fXW_YNyEEsczbA&dib_tag=se&keywords=lp-e6nh+USB&qid=1715621745&sprefix=lp-e6nh+usb%2Caps%2C118&sr=8-8))
 
+Pour les connecteurs batteries LP-e6 :
+
+- [Reddit](https://www.reddit.com/r/AskElectronics/comments/17p4tr1/lpe6_charger_pins/)
+- [Connector identification](https://connectorbook.com/identification.html?m=NN&n=battery_blade_b2b_conn&&fl=0000000000000000000000000000000000000000000000000000-400-|||||)
+- [Ref potentielle - Vérifier dimensions](https://fr.aliexpress.com/item/1005005245234469.html?gatewayAdapt=glo2fra)
+- [Ref potentielle - Vérifier dimensions](https://fr.aliexpress.com/item/1005004845618508.html?spm=a2g0o.productlist.main.19.5ff05880aZnsjo&algo_pvid=4a7a5daa-ca5e-4170-8a23-474c202b7fad&algo_exp_id=4a7a5daa-ca5e-4170-8a23-474c202b7fad-9&pdp_npi=4%40dis%21EUR%215.26%214.47%21%21%215.56%214.73%21%40210388c917171411317987485ebd48%2112000030719342686%21sea%21FR%212164625422%21&curPageLogUid=YeS47cgkw0Xp&utparam-url=scene%3Asearch%7Cquery_from%3A)
+
+A priori c'est un connecteur custom pour Canon. Mais il semble y avoir des possibilités d'adaptation.
+
+Pour le bouton d'arrêt d'urgence, il faudrait trouver une référence plus petite et plus legère. Une solution soudée sur PCB serait interessante. Eventuellement, utiliser un interrupteur et visser un bouton AU dessus.
+
+
 ### Les Robots
 
 Les moteurs actuels, [23HS16-0884S](https://www.omc-stepperonline.com/fr/nema-23-bipolaire-1-8deg-0-6nm-85oz-in-0-88a-6-6v-57x57x41mm-4-fils-23hs16-0884s), ne sont pas assez puissants en haute vitesse. Le couple chute drastiquement. 
