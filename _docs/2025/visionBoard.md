@@ -25,8 +25,10 @@ Pour les connecteurs batteries LP-e6 :
 
 A priori c'est un connecteur custom pour Canon. Mais il semble y avoir des possibilités d'adaptation.
 
-Pour le bouton d'arrêt d'urgence, il faudrait trouver une référence plus petite et plus legère. Une solution soudée sur PCB serait interessante. Eventuellement, utiliser un interrupteur et visser un bouton AU dessus.
+Pour le bouton d'arrêt d'urgence, il faudrait trouver une référence plus petite et plus legère. Une solution soudée sur PCB serait interessante. Eventuellement, utiliser un interrupteur et visser un bouton AU dessus. 
 
+- [Ref latching switch button 5A](https://befr.rs-online.com/web/p/push-button-switches/1251684)
+- [UB16SKW03N-C](https://www.digikey.fr/fr/products/detail/nkk-switches/UB16SKW03N-C/1057030?s=N4IgTCBcDaIKoCECMA2AygaQOoAYDMAcgLQDCIAugL5A)
 
 ### Les Robots
 
