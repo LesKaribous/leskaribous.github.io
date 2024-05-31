@@ -14,7 +14,7 @@ toc: true
 Réduire la taille de la carte :
 
 - Passer sur des ESP32 sans antenne intégrés : https://www.mouser.fr/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1U-N16R2
-- Passer sur des batteries d'appareil photo ([Exemple 1](https://www.amazon.fr/ENEGON-LP-E6NH-Batteries-Rechange-Compatible/dp/B08R8FH3NJ/ref=sr_1_8?__mk_fr_FR=ÅMÅŽÕÑ&crid=VXUFGA2MASML&dib=eyJ2IjoiMSJ9.bdRtNROjCfEbG8Ip4GixMXPXzECKBdjD-O145UZNbSJi3E9qiUzNdkhh3nrkxa6vzE1OaydhoebICsUA3LpAGBzxsePq0jWkyUz257v45bIrXDjgWQF2XHNSWMLgY6OBlnLQv0alowaDaTVj39x42aPJvqqIssAWQN1qVacNpN_YqQbl_1QT0OuoTAywf7ZklNMBwMkVxuAfmGo4Nl71NiRNxynbkhswrf02y97yOpSFYnyDSWKqjNrYw3dBFsbqpIRuu7oWainc3KBwq2lTWtAwlBotwCV_8r_VEIcvVA4._RmGu8ATVesv_flToQE84E6378el4fXW_YNyEEsczbA&dib_tag=se&keywords=lp-e6nh+USB&qid=1715621745&sprefix=lp-e6nh+usb%2Caps%2C118&sr=8-8))
+- Passer sur des batteries d'appareil photo ([Exemple 1](https://www.amazon.fr/ENEGON-LP-E6NH-Batteries-Rechange-Compatible/dp/B08R8FH3NJ/ref=sr_1_8?__mk_fr_FR=ÅMÅŽÕÑ&crid=VXUFGA2MASML&dib=eyJ2IjoiMSJ9.bdRtNROjCfEbG8Ip4GixMXPXzECKBdjD-O145UZNbSJi3E9qiUzNdkhh3nrkxa6vzE1OaydhoebICsUA3LpAGBzxsePq0jWkyUz257v45bIrXDjgWQF2XHNSWMLgY6OBlnLQv0alowaDaTVj39x42aPJvqqIssAWQN1qVacNpN_YqQbl_1QT0OuoTAywf7ZklNMBwMkVxuAfmGo4Nl71NiRNxynbkhswrf02y97yOpSFYnyDSWKqjNrYw3dBFsbqpIRuu7oWainc3KBwq2lTWtAwlBotwCV_8r_VEIcvVA4._RmGu8ATVesv_flToQE84E6378el4fXW_YNyEEsczbA&dib_tag=se&keywords=lp-e6nh+USB&qid=1715621745&sprefix=lp-e6nh+usb%2Caps%2C118&sr=8-8)
 
 Pour les connecteurs batteries LP-e6 :
 
