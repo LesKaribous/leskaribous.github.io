@@ -59,6 +59,10 @@ Si on souhaite rester en moteur Pas-à-pas pour le moment, la reférence semble 
 
 ![alt text](couplemoteurnema17.png)
 
+### Positionnement absolu
+
+- [SparkFun Optical Tracking Odometry Sensor - PAA5160E1](https://www.sparkfun.com/products/24904)
+
 # Liens importants
 
 - recommandations pour cables I2C : https://docs.px4.io/main/en/assembly/cable_wiring.html#:~:text=I2C%20bus%20signal%20cross%2Dtalk,GND%20per%2030cm%20cable%20length.
