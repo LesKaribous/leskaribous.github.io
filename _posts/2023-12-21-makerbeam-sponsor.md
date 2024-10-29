@@ -1,7 +1,7 @@
 ---
 title: Renouvellement partenariat MakerBeam
 date: 2023-12-21 12:00:00 +0800
-categories: [Electronique]
+categories: [Mecanique]
 tags: [cdr]
 author: Barbatronic
 img_path: ../../assets/img/posts/

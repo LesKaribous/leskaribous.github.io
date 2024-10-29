@@ -9,7 +9,7 @@ toc: true
 comments: false
 math: true
 mermaid: true
-pin: true
+pin: false
 post-image: assets/img/gallery/cdr-2024/22.jpg
 ---
 
