@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robot 2025 - Cartes electroniques
+title: Robot 2025 - Cartes électroniques
 panel: false
 toc: true
 ---
