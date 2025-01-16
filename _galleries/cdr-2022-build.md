@@ -1,7 +1,7 @@
 ---
 layout: gallery
 panel: false
-title: Preparation CDR 2022
+title: Préparation CDR 2022
 date: 2021-09-01 00:00:00 +0800
 description: Conception et réalisation des robots 2022
 folder: cdr-2022-build
