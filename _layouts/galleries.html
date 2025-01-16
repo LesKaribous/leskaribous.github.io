@@ -8,7 +8,11 @@ layout: page
     {% for gallery in galleries %}
     <div class="col-sm-6 d-flex align-items-stretch" style="margin-bottom: 20px !important;">
       <div class="card" style="border-radius: 30px; overflow: hidden;">
+        {% if gallery.external_link %}
+        <a href="{{ gallery.external_link }}" style="border-bottom: 0px !important;">
+        {% else %}
         <a href="{{ gallery.url | relative_url }}" style="border-bottom: 0px !important;">
+        {% endif %}
           <img class="card-img-top" 
             src="../assets/img/gallery/{{ gallery.folder }}/{{ gallery.card-img }}" 
             width="auto"
