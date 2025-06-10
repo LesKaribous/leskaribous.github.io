@@ -1,26 +1,161 @@
-# frozen_string_literal: true
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.1)Add commentMore actions
+      public_suffix (>= 2.0.2, < 6.0)
 
-source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 5.4", ">= 5.4.0"
+    colorator (1.1.0)
+    concurrent-ruby (1.1.10)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    em-websocket (0.5.3)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0)
+    ethon (0.16.0)
+      ffi (>= 1.15.0)
+    eventmachine (1.2.7)
+    faraday (2.7.2)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
 
-group :test do
-  gem "html-proofer", "~> 3.18"
-end
+    faraday-cookie_jar (0.0.7)
+      faraday (>= 0.8.0)
+      http-cookie (~> 1.0.0)
+    faraday-encoding (0.0.5)
+      faraday
+    faraday-follow_redirects (0.3.0)
+      faraday (>= 1, < 3)
+    faraday-gzip (0.1.0)
+      faraday (>= 1.0)
+      zlib (~> 2.1)
+    faraday-http-cache (2.4.1)
+      faraday (>= 0.8)
+    faraday-net_http (3.0.2)
+    faraday-retry (2.0.0)
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
-end
+      faraday (~> 2.0)
+    fastimage (2.2.6)
+    ffi (1.15.5)
+    forwardable-extended (2.6.0)
+    google-protobuf (3.21.12-x86_64-linux)
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
-# Jekyll <= 4.2.0 compatibility with Ruby 3.0
-gem "webrick", "~> 1.7"
+    html-proofer (3.19.4)
+      addressable (~> 2.3)
+      mercenary (~> 0.3)
+@@ -43,42 +49,45 @@ GEM
+      rainbow (~> 3.0)
+      typhoeus (~> 1.3)
+      yell (~> 2.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    http_parser.rb (0.8.0)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    jekyll (4.3.1)
+      addressable (~> 2.4)
 
-group :jekyll_plugins do
-  gem "jekyll-linkpreview" 
-end
+      colorator (~> 1.0)
+
+      em-websocket (~> 0.5)
+      i18n (~> 1.0)
+      jekyll-sass-converter (>= 2.0, < 4.0)
+      jekyll-watch (~> 2.0)
+
+      kramdown (~> 2.3, >= 2.3.1)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 4.0)
+      mercenary (>= 0.3.6, < 0.5)
+      pathutil (~> 0.9)
+      rouge (>= 3.0, < 5.0)
+      safe_yaml (~> 1.0)
+      terminal-table (>= 1.8, < 4.0)
+      webrick (~> 1.7)
+    jekyll-archives (2.2.1)
+      jekyll (>= 3.6, < 5.0)
+    jekyll-linkpreview (0.5.0)
+      jekyll (>= 3.5, < 5.0)
+      metainspector (~> 5.9)
+    jekyll-paginate (1.1.0)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
+    jekyll-sass-converter (3.0.0)
+      sass-embedded (~> 1.54)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-theme-chirpy (5.4.0)
+      jekyll (~> 4.3)
+      jekyll-archives (~> 2.2)
+      jekyll-paginate (~> 1.1)
+@@ -87,64 +96,64 @@ GEM
+      jekyll-sitemap (~> 1.4)
+    jekyll-watch (2.2.1)
+      listen (~> 3.0)
+    kramdown (2.4.0)
+      rexml
+
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
+    liquid (4.0.3)
+    listen (3.7.1)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
+
+    mercenary (0.4.0)
+    metainspector (5.13.1)
+      addressable (~> 2.8)
+      faraday (~> 2.5)
+      faraday-cookie_jar (~> 0.0)
+      faraday-encoding (~> 0.0)
+      faraday-follow_redirects (~> 0.3)
+      faraday-gzip (~> 0.1)
+      faraday-http-cache (~> 2.4)
+      faraday-retry (~> 2.0)
+      fastimage (~> 2.2)
+      nesty (~> 1.0)
+      nokogiri (~> 1.13)
+    nesty (1.0.2)
+    nokogiri (1.13.10-x86_64-linux)
+
+
+      racc (~> 1.4)
+    parallel (1.22.1)
+    pathutil (0.16.2)
+      forwardable-extended (~> 2.6)
+    public_suffix (5.0.1)
+    racc (1.6.2)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    rb-fsevent (0.11.2)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    rexml (3.2.5)
+    rouge (4.0.1)
+    ruby2_keywords (0.0.5)
+    safe_yaml (1.0.5)
+    sass-embedded (1.57.1)
+      google-protobuf (~> 3.21)
+      rake (>= 10.0.0)
+    terminal-table (3.0.2)
+      unicode-display_width (>= 1.1.1, < 3)
+    thread_safe (0.3.6)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+    tzinfo (1.2.10)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2022.7)
+      tzinfo (>= 1.0.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8.2)
+    unicode-display_width (2.3.0)
+    wdm (0.1.1)
+    webrick (1.7.0)
+    yell (2.2.2)
+    zlib (2.1.1)
+
+PLATFORMS
+  x86_64-linux
