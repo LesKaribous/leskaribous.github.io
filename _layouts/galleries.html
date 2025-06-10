@@ -9,7 +9,7 @@ layout: page
     <div class="col-sm-6 d-flex align-items-stretch" style="margin-bottom: 20px !important;">
       <div class="card" style="border-radius: 30px; overflow: hidden;">
         {% if gallery.external_link %}
-        <a href="{{ gallery.external_link }}" style="border-bottom: 0px !important;">
+        <a href="{{ gallery.external_link }}" target="_blank" style="border-bottom: 0px !important;">
         {% else %}
         <a href="{{ gallery.url | relative_url }}" style="border-bottom: 0px !important;">
         {% endif %}
