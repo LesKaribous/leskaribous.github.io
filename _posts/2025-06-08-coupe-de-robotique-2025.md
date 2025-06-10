@@ -30,7 +30,7 @@ Un immense merci à tous ceux qui nous ont soutenus, pendant et en dehors des li
 Cette année, nous avons eu **le plaisir d’engager deux équipes** :
 
 - **Les Legends**, notre duo historique, visait un robot robuste et une stratégie solide.  
-  → Résultat : 🏆 **14ᵉ place au classement général**, 🥈 **2ᵉ place dans la catégorie Légendes**.
+  → Résultat : 🏆 **15ᵉ place au classement général**, 🥈 **2ᵉ place dans la catégorie Légendes**.
 
 - Et pour la première fois : **Les Karibelles**, une équipe montée **en à peine deux semaines**, composée de notre fille (6 ans) et de sa maman 💪  
   → Résultat : **47ᵉ place**, mais surtout **100 % de matchs joués, un robot autonome, et une super énergie sur toute la compétition** !
