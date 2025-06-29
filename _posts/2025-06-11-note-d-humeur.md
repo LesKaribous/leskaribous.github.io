@@ -6,7 +6,7 @@ tags: [cdr]
 author: Barbatronic  
 img_path: ../../assets/gallery/
 toc: true  
-comments: false  
+comments: true  
 math: true  
 mermaid: true  
 pin: false
